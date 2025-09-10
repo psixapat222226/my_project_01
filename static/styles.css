@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/i.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    border: 3px solid purple;
+    border-radius: 10px;
+    padding: 4px;   
+    background-color: gainsboro;
+}
+
+input:focus {
+    background-color: aquamarine;
+}
+
+button {
+    padding: 4px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#ContactForm {
+    padding: 5px;
+    margin: 10px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    max-width: 250px;
+    background-color: darkgray;
+    
+}

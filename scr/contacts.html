@@ -35,6 +35,33 @@
             <h2>Наши соц.сети</h2>
             <p>Ссылка на соц.сети</p>
         </section>
+
+        <form id="ContactForm">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name">
+            <label for="phone">Ваш телефон:</label>
+            <input type="text" id="phone" name="phone" placeholder="+7-999-999-99-99">
+            <label for="email">Ваш email:</label>
+            <input type="text" id="email" name="email">
+
+
+            <label for="course">Ваш курс:</label>
+            <select id="course" name="course">
+                <option value="">--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="other">Другой</option>
+            </select>
+            <label for="message">Ваше сообщение:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <button type="submit" id="submit">Отправить</button>
+            <button type="reset" id="reset-btn">Очистить</button>
+        </form>
+
+
     </main>
 
     <footer>
